@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Spicejet">
+
+	 <listeners> <listener class-name="com.cucumber.utility.Listener" /> 
+		</listeners>
+
+	<test name="LoginRunner">
+		<classes>
+			<class name="com.cucumber.TestRunner.LoginRunner" />
+		</classes>
+	</test>
+
+	<test name="BookTick">
+		<classes>
+			<class name="com.cucumber.TestRunner.BookTicketRunner" />
+		</classes>
+	</test>
+
+	<test name="Registration">
+		<classes>
+			<class name="com.cucumber.TestRunner.RegistrationRunner" />
+		</classes>
+	</test>
+
+</suite>

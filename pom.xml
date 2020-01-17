@@ -1,0 +1,220 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>HFramework</groupId>
+	<artifactId>HFramework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+	<!-- <properties> <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+		</properties> -->
+
+	<repositories>
+		<repository>
+			<id>maven2-repository.java.net</id>
+			<name>Java.net Repository for Maven</name>
+			<url>C:\Users\khaja.h\Desktop\BNSF_Training\Selenium_Cucumber_Java_Framework\screenshots\</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
+
+	<properties>
+		<suiteXmlFile>testng.xml</suiteXmlFile>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
+		<maven.compile.encoding>UTF-8</maven.compile.encoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<!-- <timestamp>${maven.build.timestamp}</timestamp> <maven.build.timestamp.format>yyyy-MM-dd 
+			HH-mm-ss</maven.build.timestamp.format> -->
+	</properties>
+
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<testFailureIgnore>true</testFailureIgnore>
+
+					<!-- <source>1.8</source> <target>1.8</target> <encoding>UTF-8</encoding> -->
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>net.masterthought</groupId>
+				<artifactId>maven-cucumber-reporting</artifactId>
+				<!-- <version>4.9.0</version> -->
+				<version>3.15.0</version>
+				<executions>
+					<execution>
+						<id>execution</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<projectName>Selenium_Cucumber_Java_Framework</projectName>
+							<!-- optional, per documentation set this to "true" to bypass generation 
+								of Cucumber Reports entirely, defaults to false if not specified -->
+							<skip>false</skip>
+							<!-- output directory for the generated report -->
+							<outputDirectory>${project.build.directory}/cucumber-JVM-reports/</outputDirectory>
+							<cucumberOutput>${project.build.directory}/cucumber-reports</cucumberOutput>
+							<!-- <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput> -->
+							<!-- <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory> -->
+
+							<!-- optional, defaults to outputDirectory if not specified -->
+							<!-- <inputDirectory>${project.build.directory}/jsonReports</inputDirectory> -->
+
+							<!-- <inputDirectory>${project.build.directory}/cucumber.json</inputDirectory> -->
+							<!-- <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput> -->
+							<skippedFails>false</skippedFails>
+							<enableFlashCharts>true</enableFlashCharts>
+							<buildNumber>12</buildNumber>
+
+							<!-- optional, set true to fail build on test failures -->
+							<checkBuildResult>true</checkBuildResult>
+
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<configuration>
+					<suiteXmlFiles>
+						<!-- <suiteXmlFile>testng.xml</suiteXmlFile> -->
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+
+
+
+		</plugins>
+	</build>
+
+
+
+	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/net.masterthought.jenkins/cucumber-reports -->
+		<!-- <dependency> <groupId>net.masterthought.jenkins</groupId> <artifactId>cucumber-reports</artifactId> 
+			<version>3.4.0</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+		<!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
+		<!-- <dependency> <groupId>net.masterthought</groupId> <artifactId>maven-cucumber-reporting</artifactId> 
+			<version>3.15.0</version> </dependency> -->
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-deploy-plugin</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.7.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.16</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.16</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.16</version>
+		</dependency>
+
+		<!-- <dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.0.9</version>
+		</dependency> -->
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.9</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.23</version>
+		</dependency>
+
+		<!-- JIRA integration dependies -->
+
+		<dependency>
+			<groupId>xml-apis</groupId>
+			<artifactId>xml-apis</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml</groupId>
+			<artifactId>jaxp-api</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>2.22.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20151123</version>
+		</dependency>
+	</dependencies>
+
+</project>
+

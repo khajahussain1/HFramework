@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111367" started-at="2020-01-17T18:40:16Z" finished-at="2020-01-17T18:42:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="111367" started-at="2020-01-17T18:40:16Z" finished-at="2020-01-17T18:42:07Z">
+      <class name="com.HFramework.Testcases.LoginTest">
+        <test-method status="PASS" signature="beforetest(java.lang.reflect.Method)[pri:0, instance:com.HFramework.Testcases.LoginTest@69ea3742]" name="beforetest" is-config="true" duration-ms="24011" started-at="2020-01-17T18:40:17Z" finished-at="2020-01-17T18:40:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HFramework.Testcases.LoginTest.Login(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.HFramework.Testcases.LoginTest@69ea3742]" name="Login" duration-ms="85770" started-at="2020-01-17T18:40:41Z" data-provider="Authontication" finished-at="2020-01-17T18:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9290543618]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="testDownClass(org.testng.ITestResult)[pri:0, instance:com.HFramework.Testcases.LoginTest@69ea3742]" name="testDownClass" is-config="true" duration-ms="492" started-at="2020-01-17T18:42:07Z" finished-at="2020-01-17T18:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginTest.Login(java.lang.String, java.lang.String)[pri:0, instance:com.HFramework.Testcases.LoginTest@69ea3742] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- com.HFramework.Testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
