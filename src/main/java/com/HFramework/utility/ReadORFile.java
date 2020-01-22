@@ -25,8 +25,7 @@ public class ReadORFile {
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
-	}
-	
+	}	
 	
 	// Method to get locator type
 
