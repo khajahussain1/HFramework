@@ -1,0 +1,27 @@
+Run config in see test:-
+-DdevicePlatform=ANDROID -DdeviceId=YT910YSWLE -DscriptName=Pluto
+-DEVIDENCE_PATH=D:\WU\WU_Pluto\Pluto\bin\Evidence
+
+-DdeviceId=4d0094db4dfd41bb -DdevicePlatform=ANDROID 
+-DscriptName=WU_AUTOMATION-DEVIDENCE_PATH=D:\\TAF\\Evidence_Create 
+-DTESTRUNLIST_ID=12345 -DrunConfigurationChildId=21 -DrunNo=121 -DdevicePort=8889 -DRunLanguage=ENGLISH
+
+-Xms1024M
+-DdeviceId="33004ec48f54b33f" -DdeviceOS="ANDROID" -DdevicePort="8889" 
+-DcountryName="BELIZE" -Dregion="BZ" -Denvironment="UATCI4" -Dlanguage="ENGLISH" -DsuiteType="sanity"
+
+LATAM—July-2016- to till date- 1 year 7months
+PLUTO—April-2015 to July-2016-1 year 3 months
+Efficient Health Track in Hospital—Nov-2013 to April-2015-1 year 3 months
+Manu LI-Dec-2012 to nov-2013- 11 months
+Health Wing-Sep-2011 to Dec-2012- 1 year 3 months
+
+Selenium experience-2 years 10 months
+See Test experience--1 year 3 months
+Core java experience-- 4 years 1 months.
+
+
+
+
+
+

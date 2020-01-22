@@ -1,0 +1,71 @@
+
+maven tutorials:-http://www.absofttrainings.com/get-free-videos/
+mvn clean test site -DgenerateReports=false surefire-report:report
+
+
+
+Git URL:- https://gitlab.wuintranet.net
+https://github.com/organizations/new
+username:-khajahussain1
+password:-aish@1234$$$
+
+oracle ioging username/password:- poolakhaja@gmail.com/Welcome@123
+
+oracle system user name:- System
+Password:- khaja
+
+username/password:- khaja/khaja
+username/password:- hussain/hussain
+username/password:- fathima/fathima
+username/password:- vali/vali
+
+
+##############################################################################
+
+1. Fibonacci series(2):- In fibonacci series, next number is the sum of previous two numbers for example 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 etc.
+   The first two numbers of fibonacci series are 0 and 1.
+
+2. Prime Number(2):- 0 and 1 are not prime numbers. The 2 is the only even prime number because all the other even numbers can be divided by 2.
+   Prime number in Java: Prime number is a number that is greater than 1 and divided by 1 or itself. 
+   In other words, prime numbers can't be divided by other numbers than itself or 1. 
+   For example 2, 3, 5, 7, 11, 13, 17.... are the prime numbers.
+
+3. Palindrome(1):- Palindrome number is a number that is same after reverse. 
+   For example 545, 151, 34543, 343, 171, 48984 are the palindrome numbers.
+
+   Palindrome number algorithm:-
+   Get the number to check for palindrome
+   Hold the number in temporary variable
+   Reverse the number
+   Compare the temporary number with reversed number
+   If both numbers are same, print "palindrome number"
+   Else print "not palindrome number"
+
+4. Armstrong(1):- Armstrong number is a number that is equal to the sum of cubes of its digits 
+   for example 0, 1, 153, 370, 371, 407 etc.
+   153 = (1*1*1)+(5*5*5)+(3*3*3)  
+   where:  
+   (1*1*1)=1  
+   (5*5*5)=125  
+   3*3*3)=27  
+  So:  
+  1+125+27=153   
+
+5. Factorial(2):- Factorial of n is the product of all positive descending integers. 
+   Factorial of n is denoted by n!. For example: 4! = 4*3*2*1 = 24  or 5! = 5*4*3*2*1 = 120  
+
+
+6. Smalleast element in array
+
+7. Biggest element in arrary
+
+8. Search /find element in array
+
+9. remove duplicate element in array.
+
+10. Sorting in an array
+ a) Bobble sorte
+ b) Quick sorte
+ c)   
+  
+############################################################################################

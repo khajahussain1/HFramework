@@ -13,7 +13,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.DataProvider;
 
+import com.HFramework.ExcelReader.WorkbookReader;
 import com.HFramework.PageObjects.LoginPageObjects;
 import com.HFramework.managers.FileReaderManager;
 import com.HFramework.utility.TestContext;
@@ -21,11 +23,12 @@ import com.google.common.io.Files;
 
 public class TestBase {
 	private static WebDriver driver;
-	//LoginPageObjects login;
+	
+	static int TestCaseRownumber;
+	static int TestCaseresultRownumber;
 
 	public TestBase(WebDriver driver) {
 		this.driver = driver;
-		// DOMConfigurator.configure("log4j.xml");
 	}
 	
 	
@@ -51,12 +54,36 @@ public class TestBase {
 
 		return destination;
 	}
+	
+	public static String gettime()
+	{
+		Date d = new Date();
+		SimpleDateFormat formater = new SimpleDateFormat("_yyyy-MM-dd_HH-mm-ss");
+		String time = "" + formater.format(d.getTime());
+		return time;
+	}
 
 	public void WaiteForElement(WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver,
 				FileReaderManager.getInstance().getConfigReader().getWebdriverWait());
 
 		wait.until(ExpectedConditions.visibilityOf(element));
+
+	}
+	
+	@DataProvider
+	public static Object[][] Authontication(String testcasename) throws Exception {
+		
+
+		WorkbookReader.setExcelFile("TestCaseData", "TestCaseResults");
+
+		TestCaseRownumber = WorkbookReader.getTestCaseRownumber(testcasename);
+
+		TestCaseresultRownumber = WorkbookReader.getTestCaseresults(testcasename);
+
+		Object[][] testdata = WorkbookReader.getcelldata(TestCaseRownumber);
+
+		return testdata;
 
 	}
 

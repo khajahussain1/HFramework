@@ -1,0 +1,1 @@
+java -Dspring.config.location=file:\C:\Users\khaja.h\Desktop\ADDIproject\ADDI\orientdb.properties,classpath:application.properties -jar ADDI-0.0.1-SNAPSHOT.jar

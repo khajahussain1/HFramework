@@ -1,0 +1,50 @@
+DG |UMB|0000000001|P49000D |P49000E |User Transaction Control Block (UTCB)             
+DG |PEM|0000000002|        |        |Activity Trace Parameters (passed to P49022)      
+DG |PEM|0000000004|        |P49200E |MONITOR INPUT                                     
+DG |PEM|0000000005|        |P49201E |PEM MONITOR SUMMARY WORK-AREA                     
+DG |PEM|0000000006|        |P49202E |PRINT FOR MONITOR                                 
+DG |PEM|0000000007|        |        |Set PEM dump options - Input dump options         
+DG |PEM|0000000009|P49809D |P49809E |User exception message text                       
+DG |UMB|0000000010|        |        |User-TCB Extension Areas (physically part of UTCB)
+DG |PEM|0000000011|        |        |Input record for LOADPARM file                    
+DG |PEM|0000000012|        |P49025E |---SYSIN Internal--- (physically part of UTCB)    
+DG |PEM|0000000013|        |P49026E |---SYSPRINT Internal--- (physically part of UTCB) 
+DG |UMB|0000000014|        |        |APPC GENERIC DATA GROUP                           
+DG |UMB|0000000015|        |P49080E |APPC CONVERSATION STACK                           
+DG |UMB|0000000020|U49020D |U49020E |DATA PROPAGATION DG LIST                          
+DG |UMB|0000000021|U49021D |U49021E |DPROP LINK ACTVY BEFORE DG LIST                   
+DG |UMB|0000000022|P49032D |P49032E |RELATIONAL REPLACEMENT CONTROL                    
+DG |PEM|0000000023|P49047D |P49047E |Batch Display Screen Area                         
+DG |UMB|0000000024|        |P49048E |PEM Generalized Logging COMMUNICATION DG          
+DG |UMB|0000000026|        |P49200E |MONITOR OUTPUT                                    
+DG |UMB|0000000025|        |        |PEM Performance Monitor User Area                 
+DG |UMB|0000000026|P49069D |P49069E |SQL Communications Area (SQLCA)                   
+DG |UMB|0000000027|        |P49074E |PEM$EDIT parameter area for pseudo-PEM programs   
+DG |UMB|0000000028|P49081D |        |UMB SQL Descriptor Area (SQLDA)                   
+DG |UMB|0000000029|P49083D |        |UMB Dynamic SQL Statement                         
+DG |PEM|0000000030|P49099D |        |APPLICATION COPYRIGHT INFO FOR BOOT MODULE        
+DG |PEM|0000000031|        |P49100E |GEN PRINT PARAMETERS                              
+DG |PEM|0000000032|P49101D |P49101E |GENERAL PRINT RECORD                              
+DG |PEM|0000000033|P49102D |P49102E |General PRINT line (Machine Carriage Control)     
+DG |PEM|0000000034|P49103D |P49103E |GEN PRINT CONTROL                                 
+DG |PEM|0000000035|        |P49104E |GEN PRINT WORKAREA                                
+DG |PEM|0000000036|        |        |GENERAL PRINT DG DEF                              
+DG |PEM|0000000037|        |        |OBSOLETE... but still referenced by applications! 
+DG |PEM|0000000038|        |P49107E |Generalized DUMP/RESTORE Input Parms and Work Area
+DG |PEM|0000000039|        |P49109E |Generalized DUMP/RESTORE Database Structure       
+DG |PEM|0000000040|        |P49109E |Generalized DUMP/RESTORE Seq. I/O Buffer #1       
+DG |PEM|0000000041|        |P49109E |Generalized DUMP/RESTORE Seq. I/O Buffer #2       
+DG |PEM|0000000042|        |        |GENP RECORD                                       
+DG |PEM|0000000043|P49140D |P49140E |CHKPT RESTART DG                                  
+DG |PEM|0000000044|        |P49141E |CKPT/RST CONTROL                                  
+DG |PEM|0000000045|        |P49142E |CKPT/RST SCRATCH PAD                              
+DG |PEM|0000000046|        |P49143E |PEM Generalized CheckPoint/Restart work area      
+DG |PEM|0000000047|        |        |WORK DATA GROUP FOR P49151                        
+DG |PEM|0000000048|        |        |WORK DATA GROUP FOR P49153                        
+DG |UMB|0000000049|        |        |Communication / work dg for example program       
+DG |PEM|0000000050|        |P49200E |PEM MONITOR - Flow table #1                       
+DG |PEM|0000000051|        |P49200E |PEM MONITOR - Flow table #2                       
+DG |PEM|0000000052|        |P49200E |PEM MONITOR - Flow table #3                       
+DG |PEM|0000000053|        |P49200E |PEM MONITOR - Flow table #4                       
+DG |PEM|0000000054|        |P49200E |PEM MONITOR - Flow table #5                       
+DG |PEM|0000000055|        |P49200E |PEM MONITOR - Flow table #6                       

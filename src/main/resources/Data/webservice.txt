@@ -1,0 +1,90 @@
+
+
+API 1:
+GetCustomerList:
+
+URL : https://20.14.209.1:9443/Getcustomerlist/GetCustomerList/s
+Mandatory fields :
+customerName : 
+Company number :11
+
+
+
+
+API 2:
+
+CreateRetirementAccount:
+https://20.14.209.1:9443/retirementaccount/createRetirementAccount
+Mandatory Fields : 
+companyNbr
+accountNumber
+product    01-04,10-12,31-36
+birthdate
+ownerCode 01
+
+
+API 3:
+
+CreateCertificateofDepositAccount:
+URL :  https://20.14.209.1:9443/certificatedepositaccount/createCertificateDepositAccount
+
+Input Data : 
+Mandatory Fields : 
+companyNbr
+accountNumber
+product  41-46,51,52,60,61,62
+ownerCode  01
+
+
+
+API 4:
+
+getcustomerprofile
+
+https://20.14.209.1:9443/getcustomerprofile/customerProfile/name%3Dritesh%26tie%3D1
+
+
+Mandatory Fields:
+inputKey: name=ritesh&tie=1
+
+
+https://20.14.209.1:9443/getcustomerprofile/customerProfile/custno%3D261
+
+Mandatory Fields:
+inputKey: custno=261
+
+
+https://20.14.209.1:9443/getcustomerprofile/customerProfile/taxid%3D987654321
+Mandatory Fields:
+inputKey: taxid=987654321
+
+
+
+
+API 5:
+
+getAccountProfile
+
+
+https://20.14.209.1:9443/getaccountprofile/getaccountprofile/DDA/1
+
+Mandatory Fields:
+productCode : DDA
+accountNumber :1
+
+
+productCode : CDA
+accountNumber : 123456789
+
+
+
+API 6:
+Createsavingsaccount
+
+https://20.14.209.1:9443/createsavingsaccount/postCreateSavingsAccount
+
+Mandatory Fields : 
+companyNbr
+accountNumber
+product  02-07
+ownerCode  01

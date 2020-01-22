@@ -1,0 +1,50 @@
+MAP|API|ENU|A64A19O|A |ALL     |API ROUTING PCD 840001                  |A40001MA|U|U140    |N|N|    |N|N|SCR|001|0000000001|0000000002
+MAP|AID|ENU|A64A21O  |O |ALL     |IDS DYNAMIC READ API REQUEST            |        | |        | | |    | | |API|003|0000000003|0000000004|0000000005
+MAP|AID|ENU|A64A16O|O |ALL     |ACCT TRANSACTION API REQUEST            |        | |        | | |    | | |API|000
+MAP|AID|ENU|SYSIN|O |ALL     |TRANSACTION POST API REQUEST            |        | |LOADPARM | | |    | | |API|002|0000000008|0000000009
+MAP|AID|ENU|AMFDUMP|O |ALL     |CHECKING ACCOUNT API REQUEST            |        | |        | | |    | | |API|001|00000000012
+MAP|AID|ENU|AMFRSTR|O |ALL     |SAVING ACCOUNT API REQUEST              |        | |        | | |    | | |API|000
+MAP|AID|ENU|AMPIN|O |ALL     |STANDING ORDER GET RESPONSE             |        | |        | | |    | | |API|001|0000000004
+MAP|AID|ENU|AMPOUT|O |ALL     |CREATE FUND TRANSFER API REQUEST        |        | |LOADPARM | | |    | | |API|002|0000000013|0000000014
+MAP|AID|ENU|APS9909|O |ALL     |FUND TRANSFER PUT API REQUEST           |        | |        | | |    | | |API|001|0000000002
+MAP|AID|ENU|ATOINVS1|O |ALL     |STANDINGORDER DELETE API REQUEST        |        | |        | | |    | | |API|002|00000000012||0000000013
+MAP|AID|ENU|ATOTFNRO|O |ALL     |FUND TRANSFER GET DETAIL API REQUEST    |        | |        | | |    | | |API|002|0000000019|0000000020
+MAP|AID|ENU|A64AD2O|O |ALL     |ATM GET REQUEST                         |        | |        | | |    | | |API|000
+MAP|AID|ENU|A64AIFO|O |ALL     |BRANCH GET REQUEST                      |        | |        | | |    | | |API|002|0000000020|0000000021
+MAP|AID|ENU|A64AMFO|O |ALL     |UPDATE CHECKING ACCOUNT API REQUEST     |        | | SYSIN  | | |    | | |API|002|0000000022|0000000023
+MAP|AID|ENU|A64A01O|O |ALL     |UPDATE SAVINGS ACCOUNT API REQUEST      |        | |        | | |    | | |API|002|0000000024|0000000026
+MAP|INT|ENU|A64A13O|O |ALL     |account balance for dda                 |        | |        | | |    | | |API|001|0000000050
+MAP|AID|ENU|A64A15O|O |ALL     |ACCT TRANSACTION API RESPONSE           |        | |        | | |    | | |API|000
+MAP|AID|ENU|A64A22O|O |ALL     |TRANSACTION POST API RESPONSE           |        | |IDSPOST | | |    | | |API|002|0000000020|0000000021
+MAP|AID|ENU|A64A24O|O |ALL     |CREATE CHECKING ACCOUNT RESPONSE        |        | |        | | |    | | |API|000
+MAP|AID|ENU|A64A21O|O |ALL     |CREATE SAVINGS ACCOUNT RESPONSE         |        | |        | | |    | | |API|000
+MAP|AID|ENU|A64A36O|O |ALL     |STANDING ORDER GET RESPONSE API         |        | |        | | |    | | |API|002|0000000050|0000000049
+MAP|AID|ENU|A64A25O|O |ALL     |CREATE STANDING ORDER API RESPONSE      |        | |IDSPOST | | |    | | |API|000
+MAP|AID|ENU|A64A23O|O |ALL     |FUND TRANSFER PUT API RESPONSE          |        | |        | | |    | | |API|000
+MAP|AID|ENU|A64A73O|O |ALL     |STANDINGORDER DELETE API RESPONSE       |        | |        | | |    | | |API|000
+MAP|AID|ENU|A64A45O|O |ALL     |FUND TRANSFER GET DETAIL API RESPONSE   |        | |        | | |    | | |API|000
+MAP|AID|ENU|A64A45O|O |ALL     |ATM GET RESPONSE                        |        | |        | | |    | | |API|002|0000000030|0000000031
+MAP|AID|ENU|A64A73O|O |ALL     |BRANCH GET RESPONSE                     |        | |        | | |    | | |API|003|0000000020|0000000021|0000000022
+MAP|AID|ENU|A64BORO|O |ALL     |UPDATE CHECKING ACCOUNT API RESPONSE    |        | |        | | |    | | |API|000
+MAP|AID|ENU|A64A34O|O |ALL     |UPDATE SAVINGS ACCOUNT API RESPONSE     |        | |        | | |    | | |API|003|0000000042|0000000043|0000000044
+MAP|INT|ENU|A64A95O|O |ALL     |account balance response for dda        |        | |        | | |    | | |API|000
+MAP|AID|ENU|A64CASO|O |ALL     |TRANSACTION POST API REQUEST            |        | |PEMPARM | | |    | | |API|000
+MAP|AID|ENU|A64A78O|O |ALL     |TRANSACTION POST API RESPONSE           |        | |IDSPOST | | |    | | |API|000
+MAP|AIL|ENU|LOADPARM|O |ALL     |get Loan Account (I)                    |        | |        | | |    | | |API|003|0000000020|0000000012|0000000038
+MAP|AIL|ENU|A43501M|O |ALL     |get Borrower Account (I)                |        | |        | | |    | | |API|000
+MAP|AIL|ENU|A43502M|O |ALL     |Update Borrower (I)                     |        | |        | | |    | | |API|000
+MAP|AIL|ENU|A43503M|O |ALL     |Get Loan Account transactions (I)       |        | |        | | |    | | |API|003|0000000020|0000000021|0000000037
+MAP|AIL|ENU|A43504M|O |ALL     |Create Loan Account transactions (I)    |        | |        | | |    | | |API|003|0000000049|0000000012|0000000001
+MAP|AIL|ENU|A43505M|O |ALL     |GetLoanPayoffQuote (I)                  |        | |        | | |    | | |API|000
+MAP|AIL|ENU|A43506M|O |ALL     |GetTestEscrowAnalysis (I)               |        | |        | | |    | | |API|003|0000000012|0000000011|0000000016
+MAP|AIL|ENU|A43507M|O |ALL     |Get Loan Billing Schedules    (I)       |        | |        | | |    | | |API|000
+MAP|AIL|ENU|A43508M|O |ALL     |Update Loan Billing Schedules    (I)    |        | |        | | |    | | |API|003|0000000020|0000000021|0000000022
+MAP|AIL|ENU|A43702M|O |ALL     |Update Borrower (O)                     |        | |        | | |    | | |API|000
+MAP|AIL|ENU|A43703M|O |ALL     |Get Loan Account transactions (o)       |        | |        | | |    | | |API|003|0000000049|0000000012|0000000022
+MAP|AIL|ENU|A43704M|O |ALL     |Create Loan Account transactions (O)    |        | |        | | |    | | |API|000
+MAP|AIL|ENU|A43705M|O |ALL     |GetLoanPayoffQuote (O)                  |        | |        | | |    | | |API|003|0000000050|0000000051|0000000052
+MAP|AIL|ENU|A64A45O|O |ALL     |GetTestEscrowAnalysis (O)               |        | |        | | |    | | |API|000
+MAP|AIL|ENU|A43707M|O |ALL     |Get Loan Billing Schedules    (o)       |        | |        | | |    | | |API|000
+MAP|AIL|ENU|A64A13O|O |ALL     |Update Loan Billing Schedules (o)       |        | |        | | |    | | |API|003|0000000041|0000000053|0000000042
+MAP|APR|ENU|A64A73O|O |ALL     |GET CUSTOMER PROFILE API REQUEST        |        | |        | | |    | | |API|000
+MAP|APR|ENU|A44012M|O |ALL     |UPDATE CUSTOMER API REQUEST             |        | |        | | |    | | |API|003|0000000001|0000000009|0000000021

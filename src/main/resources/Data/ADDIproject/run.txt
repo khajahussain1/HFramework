@@ -1,0 +1,1 @@
+java -Ddatafiles=C:\Users\khaja.h\Desktop\ADDI_project\Original_files\50-50\File\File -jar ADDI-0.0.1-SNAPSHOT.jar

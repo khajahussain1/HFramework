@@ -1,11 +1,10 @@
 package com.HFramework.Testcases;
 
 import java.lang.reflect.Method;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -13,6 +12,7 @@ import org.testng.annotations.Test;
 
 import com.HFramework.ExcelReader.WorkbookReader;
 import com.HFramework.PageObjects.BookTicketPageObjects;
+import com.HFramework.TestBase.TestBase;
 import com.HFramework.utility.Extentsreports;
 import com.HFramework.utility.Log;
 import com.HFramework.utility.TestContext;
@@ -22,36 +22,37 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class BookTicketTest {
 
-	private TestContext testContext = null;
-	BookTicketPageObjects bookTicket;
+	TestContext testContext;
+	private BookTicketPageObjects bookTicket = null;
 	private String testcasename;
 	private int TestCaseRownumber;
 	private int TestCaseresultRownumber;
-	static ExtentReports extent;
-	static ExtentTest test;
-	SimpleDateFormat formater;
-	static String time;
+	ExtentReports extent;
+	ExtentTest test;
+	TestBase testbase;
 
 	@BeforeMethod
-	public void beforetest(Method result) {
+	public void beforetest(Method result) throws Exception {
+		///testbase = new TestBase(testContext.getWebDriverManager().getDriver());
+		//testbase.Authontication(testcasename);
+		//TestBase.Authontication(testcasename);
+		
 		testContext = new TestContext();
-		bookTicket = testContext.getPageObjectManager().getbookTicket();
-		testcasename = this.getClass().getSimpleName();
-		DOMConfigurator.configure("log4j.xml");
-		Log.startTestCase(testcasename);
-		Date d = new Date();
-		formater = new SimpleDateFormat("_yyyy-MM-dd_HH-mm-ss");
-		time = "" + formater.format(d.getTime());
+		testcasename = this.getClass().getSimpleName();	
+		
 		extent = new ExtentReports(
-				System.getProperty("user.dir") + "/target/Extents-Reports/Extentreport" + time + ".html");
+				System.getProperty("user.dir") + "/target/Extents-Reports/Extentreport" + TestBase.gettime() + ".html");
 		test = extent.startTest(result.getName());
 		test.log(LogStatus.INFO, result.getName() + " test Started");
 		
+		bookTicket = testContext.getPageObjectManager().getbookTicket();
+		//DOMConfigurator.configure("log4j.xml");
+		//Log.startTestCase(testcasename);
 
 	}
 
 	@Test(dataProvider = "Authontication")
-	public void BookTicket(String phno, String password) throws Exception {
+	public void BookTicket() throws Exception {
 		try {
 
 			bookTicket.select_from_dropdown();
@@ -63,12 +64,16 @@ public class BookTicketTest {
 
 			// TestBase.getScreenShot(testContext.getWebDriverManager().getDriver(),
 			// testcasename);
+			throw (e);
 		}
 
 	}
 
+	
+
 	@DataProvider
 	public Object[][] Authontication() throws Exception {
+		testcasename = this.getClass().getSimpleName();
 
 		WorkbookReader.setExcelFile("TestCaseData", "TestCaseResults");
 
@@ -98,18 +103,24 @@ public class BookTicketTest {
 		} else if (result.getStatus() == ITestResult.FAILURE) {
 			test.log(LogStatus.FAIL, result.getName() + " test is failed" + result.getThrowable());
 
-			String screenshot_path = Extentsreports.captureScreenshot(result.getName());
+			String screenshot_path = Extentsreports.captureScreenshot(testContext.getWebDriverManager().getDriver(),
+					result.getName());
 
 			String image = test.addScreenCapture(screenshot_path);
 
 			test.log(LogStatus.FAIL, "Title verification", image);
 
 		}
-		extent.endTest(test);
-		extent.flush();
+
 		// testContext.getWebDriverManager().quitDriver();
 		Log.endTestCase(testcasename);
 
+	}
+
+	@AfterClass
+	public void afterclass() {
+		extent.endTest(test);
+		extent.flush();
 	}
 
 }

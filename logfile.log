@@ -392,3 +392,143 @@
 2020-01-18 00:12:07,933 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
 2020-01-18 00:12:07,933 INFO  [Log] X 
 2020-01-18 00:12:07,933 INFO  [Log] X 
+2020-01-18 09:48:07,086 INFO  [Log] **************************************************************************************** 
+2020-01-18 09:48:07,086 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-18 09:48:07,086 INFO  [Log] **************************************************************************************** 
+2020-01-18 09:49:32,244 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-18 09:49:32,244 INFO  [Log] X 
+2020-01-18 09:49:32,244 INFO  [Log] X 
+2020-01-18 09:53:58,766 INFO  [Log] **************************************************************************************** 
+2020-01-18 09:53:58,766 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-18 09:53:58,767 INFO  [Log] **************************************************************************************** 
+2020-01-18 09:55:23,304 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-18 09:55:23,305 INFO  [Log] X 
+2020-01-18 09:55:23,305 INFO  [Log] X 
+2020-01-18 09:57:42,145 INFO  [Log] **************************************************************************************** 
+2020-01-18 09:57:42,145 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-18 09:57:42,145 INFO  [Log] **************************************************************************************** 
+2020-01-18 09:59:04,971 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-18 09:59:04,971 INFO  [Log] X 
+2020-01-18 09:59:04,971 INFO  [Log] X 
+2020-01-18 10:00:55,037 INFO  [Log] **************************************************************************************** 
+2020-01-18 10:00:55,038 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-18 10:00:55,038 INFO  [Log] **************************************************************************************** 
+2020-01-18 10:02:18,332 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-18 10:02:18,332 INFO  [Log] X 
+2020-01-18 10:02:18,332 INFO  [Log] X 
+2020-01-18 10:03:17,049 INFO  [Log] **************************************************************************************** 
+2020-01-18 10:03:17,049 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-18 10:03:17,050 INFO  [Log] **************************************************************************************** 
+2020-01-18 10:12:02,492 INFO  [Log] **************************************************************************************** 
+2020-01-18 10:12:02,493 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-18 10:12:02,493 INFO  [Log] **************************************************************************************** 
+2020-01-18 10:13:25,136 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-18 10:13:25,136 INFO  [Log] X 
+2020-01-18 10:13:25,136 INFO  [Log] X 
+2020-01-18 10:41:48,326 INFO  [Log] **************************************************************************************** 
+2020-01-18 10:41:48,327 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LoginTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-18 10:41:48,327 INFO  [Log] **************************************************************************************** 
+2020-01-18 10:41:48,629 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 10:41:48,847 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 10:41:49,414 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 10:41:49,464 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 10:41:49,770 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 10:41:53,032 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 10:43:15,188 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-18 10:43:15,188 INFO  [Log] X 
+2020-01-18 10:43:15,188 INFO  [Log] X 
+2020-01-18 10:50:20,450 ERROR [Log] Login_Signup_button is not found on the Home page java.lang.NullPointerException 
+2020-01-18 10:50:20,997 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-18 10:50:20,997 INFO  [Log] X 
+2020-01-18 10:50:20,997 INFO  [Log] X 
+2020-01-18 10:52:48,070 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 10:52:48,153 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 10:52:48,745 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 10:52:48,818 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 10:52:49,139 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 10:52:59,011 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 11:47:26,527 ERROR [Log] Login_Signup_button is not found on the Home page java.lang.NullPointerException 
+2020-01-18 11:52:54,868 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 11:52:55,012 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 11:52:55,671 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 11:52:55,736 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 11:52:56,059 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 11:52:59,777 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 11:54:37,488 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-18 11:54:37,489 INFO  [Log] X 
+2020-01-18 11:54:37,489 INFO  [Log] X 
+2020-01-18 12:00:00,786 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:00:00,937 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:00:02,449 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:00:03,141 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:00:03,814 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:00:44,464 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:00:44,527 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:00:45,114 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:00:45,161 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:00:45,427 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:00:52,369 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 12:05:53,430 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:05:53,483 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:05:54,050 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:05:54,099 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:05:54,376 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:06:04,744 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 12:10:34,730 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:10:34,815 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:10:35,420 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:10:35,487 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:10:35,820 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:10:44,139 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 12:13:29,302 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:13:29,414 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:13:29,782 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:13:30,226 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:13:30,656 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:13:35,083 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 12:16:21,495 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:16:21,571 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:16:22,153 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:16:22,205 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:16:22,483 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:16:26,319 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 12:18:59,727 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:18:59,798 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:19:00,386 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:19:00,449 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:19:00,803 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:19:03,984 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 12:21:59,789 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:21:59,873 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:22:00,466 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:22:00,525 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:22:00,853 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:22:04,503 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 12:27:04,889 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:27:04,957 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:27:05,537 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:27:05,612 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:27:05,952 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:27:23,308 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 12:31:23,469 ERROR [Log] Login_Signup_button is not found on the Home page org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[@id='ctl00_HyperLinkLogin']' (tried for 60 second(s) with 500 MILLISECONDS interval) 
+2020-01-18 12:34:51,153 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:34:51,222 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:34:51,825 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:34:51,889 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:34:52,256 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:34:57,865 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 12:38:23,055 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:38:23,126 INFO  [Log] Login_Signup_button is found on the Home page 
+2020-01-18 12:38:23,722 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:38:23,777 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2020-01-18 12:38:24,061 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2020-01-18 12:38:52,424 INFO  [Log] Member_Login is found on the Home page 
+2020-01-18 15:13:25,992 INFO  [Log] **************************************************************************************** 
+2020-01-18 15:13:25,993 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-18 15:13:25,993 INFO  [Log] **************************************************************************************** 
+2020-01-18 15:14:52,600 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-18 15:14:52,600 INFO  [Log] X 
+2020-01-18 15:14:52,600 INFO  [Log] X 
+2020-01-20 10:40:03,922 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-20 10:40:03,932 INFO  [Log] X 
+2020-01-20 10:40:03,933 INFO  [Log] X 

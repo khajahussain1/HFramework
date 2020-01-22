@@ -83,11 +83,11 @@ public class Extentsreports {
 		} else if (result.getStatus() == ITestResult.FAILURE) {
 			test.log(LogStatus.FAIL, result.getName() + " test is failed" + result.getThrowable());
 
-			String screenshot_path = captureScreenshot(result.getName());
+			/*String screenshot_path = captureScreenshot(result.getName());
 
 			String image = test.addScreenCapture(screenshot_path);
 
-			test.log(LogStatus.FAIL, "Title verification", image);
+			test.log(LogStatus.FAIL, "Title verification", image);*/
 
 		}
 	}
@@ -100,7 +100,7 @@ public class Extentsreports {
 
 	}
 
-	public static String captureScreenshot(String methodname) {
+	public static String captureScreenshot(WebDriver driver, String methodname) {
 		File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
 		String screnshot_path = System.getProperty("user.dir") + "/target/Screenshots/" + methodname + time

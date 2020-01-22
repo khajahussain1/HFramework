@@ -1,0 +1,40 @@
+
+VPN credentials:-
+
+user name:- hjanardhana3
+password:- Zaq!2wsx03
+
+orientdb credentils:-
+username:- root
+password:- admin
+
+java -Ddatafiles=C:\Users\khaja.h\Desktop\ADDI_project\Original_files\50-50\File\File -jar
+
+
+
+step-1:- open file "C:\Users\khaja.h\Desktop\orientdb-3.0.14\orientdb-3.0.14\bin" type cmd then type "server.bat"
+tap on enter
+
+step-2:- Open jar file folder and copy and paste above code in cmd and copy and paste jar file name the tep on enter
+  "java -Ddatafiles=C:\Users\khaja.h\Desktop\ADDI_project\Original_files\50-50\File\File -jar ADDI-0.0.1-SNAPSHOT.jar"
+
+step-3:- open chrome browser then type "http://localhost:2480/studio/index.html#/" then tap on enter and delete 
+privious db and Database name as ADDIdb and enter user name as "root" and enter password as "admin" tap on 
+connect button.
+
+step-4:- open chrome browser then type "http://localhost:8080/act/txn" and tap on enter.
+
+
+
+Swagger url:- http://localhost:8080/swagger-ui.html#/
+
+10.117.84.181
+
+Hi,
+
+ I came from Hyderabad to Bangalore for deputation for project purpose. I reported Jan-17-2019 in Bangalore. But i do not get any deputation allowances for January  month. So could you please do the need full as soon as possible.
+
+Thanks,
+Khaja Hussain
+Ph:- +91-9290543618
+  

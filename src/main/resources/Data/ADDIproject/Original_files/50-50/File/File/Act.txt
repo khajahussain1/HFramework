@@ -1,0 +1,49 @@
+ACT|PEM|0000000001|END  |End-Program                                       |    |       |       |    |0000000031|        |PL/1Program      
+ACT|PEM|0000000002|END  |End Transaction                                   |    |       |       |    |          |        |Variable      
+ACT|PEM|0000000003|END  |End conversational transaction                    |    |        |       |    |          |        |Variable      
+ACT|PEM|0000000004|WORK |Dynamically Allocate DG (ID in TCB$XDG)           |    |        |       |    |          |        |PL/1Program      
+ACT|PEM|0000000005|WORK |Dynamically Release a DG (ID in TCB$XDG)          |    |A64A16O|       |    |0000000041|        |SQLTable      
+ACT|PEM|0000000006|WORK |Initialize DG (ID specified in TCB$XDG)           |    |        |       |    |          |        |File      
+ACT|PEM|0000000007|SDB  |*--SYSIN INTERNAL--*                              |WAIT|        |       |    |0000000050|        |PL/1Program      
+ACT|PEM|0000000008|SDB  |*-SYSPRINT INTERNAL-*                             |WAIT|        |       |    |          |        |PL/1Program      
+ACT|UMB|0000000009|SDB  |*--PEMPARM INTERNAL--*                            |WAIT|        |       |    |          |        |CobolProgram
+ACT|PEM|0000000010|LINK |Set TCB Effective Date                            |    |AMPIN |       |    |0000000036|P49108  |CobolProgram      
+ACT|PEM|0000000012|LINK |Generate a S0C7 ABEND                             |    |               |       |    |0000000012|P49126  |SQLTable      
+ACT|PEM|0000000013|LINK |PEM NO-OP Activity emulator                       |    |        |       |    |0000000039|P49127  |SQLField      
+ACT|PEM|0000000014|DUMP |Dump UPCB/Activity-Trace/UTCB/DGs                 |WAIT|   ATOINVS1     |       |    |          |        |SQLTable      
+ACT|PEM|0000000015|DUMP |Produce DUMP and END the transaction              |EOT |        |       |    |          |        |SQLField      
+ACT|PEM|0000000016|DUMP |Dump User TCB and Activity Trace table            |WAIT|        |       |    |          |        |CICSMap      
+ACT|PEM|0000000017|DUMP |Dump Single DG (ID in TCB-LONG-DGID)              |WAIT|A64AIFO|       |    |          |        |SQLField      
+ACT|PEM|0000000018|DUMP |Dump Single DG (in TCB-LONG-DGID) & END           |END |       |       |    |          |        |SQLTable      
+ACT|PEM|0000000019|TRACE|Set TRACE parameters                              |    |       |       |    |          |        |SQLField      
+ACT|PEM|0000000020|ABEND|Enable application ABEND exit                     |    |       |       |    |          |        |CICSMap      
+ACT|PEM|0000000021|ABEND|Disable application ABEND exit                    |    |        |       |    |          |        |SQLField      
+ACT|PEM|0000000022|EXCEP|Set jobstep cond-code from TCB-RESULT             |WAIT|        |       |    |          |        |IMSMessageDescriptor      
+ACT|PEM|0000000023|EXCEP|Set Cond-Code from TCB$RSLT, Msg in DG 9          |WAIT|A64A15O|       |    |          |        |IMSMessageDescriptor      
+ACT|PEM|0000000024|EXCEP|Exception/EOT, Cond-Code=12, Msg in DG 9          |EOT |         |       |    |          |        |CICSTran      
+ACT|PEM|0000000025|EXCEP|Exception/EOP, CC=TCB$RSLT, Msg in DG 9           |END |A64A24O|       |    |          |        |SQLTable      
+ACT|PEM|0000000026|EXCEP|Exception/EOT, CC=TCB$RSLT, Msg in DG 9           |EOT |        |       |    |          |        |SQLTable
+ACT|PEM|0000000027|EXCEP|Exception/WAIT, Cond-Code=12, NO Message          |WAIT|        |       |    |          |        |File     
+ACT|PEM|0000000028|CHECK|CheckPoint Activity                               |    |        |       |    |          |        |CICSTran      
+ACT|PEM|0000000029|WORK |DYNAMIC DG ALLOCATION, NO INITIALIZATION          |    |A64A36O|       |    |          |        |File      
+ACT|PEM|0000000030|EXCEP|RollBack Activity                                 |WAIT|A64A25O|       |    |          |        |IMSTransaction      
+ACT|RCS|0000000031|LINK |RCS Application/Owner Hierarchy Editor            |    |        |       |    |0000000031|R60031  |IMSMessageDescriptor      
+ACT|PEM|0000000032|CHECK|Issue DL/1 SYNC call                              |    |        |       |    |          |        |IMSMessageDescriptor      
+ACT|PEM|0000000033|EXCEP|Excptn/EOT,CC=TCB$RSLT, Msg in DG 9,ROLB          |EOT |A64A23O|       |    |          |        | IMSTransaction     
+ACT|PEM|0000000034|LINK |Issue exception acty 23 using TCB$USCC            |    |        |       |    |0000000032|P49135  |IMSDBSegment      
+ACT|PEM|0000000035|LINK |Issue exception acty 24 using TCB$USCC            |    |        |       |    |0000000046|P49135  |IMSDBSegment      
+ACT|PEM|0000000036|LINK |Issue exception acty 25 using TCB$USCC            |    |        |       |    |0000000044|P49135  |IMSDBSegment      
+ACT|PEM|0000000037|LINK |Issue exception acty 26 using TCB$USCC            |    |        |       |    |0000000030|P49135  |IMSDBSegment      
+ACT|PEM|0000000038|LINK |Issue exception acty 33 using TCB$USCC            |    |A64A45O|       |    |0000000015|P49135  |IMSDBSegment      
+ACT|PEM|0000000039|EXCEP|Exception msg in DG 9, ABEND transaction          |ABND|        |       |    |          |        |IMSTransaction      
+ACT|PEM|0000000041|LINK |MODULE.'LOADER'                                   |    |        |       |    |0000000017|P49141  |IMSTransaction      
+ACT|PEM|0000000042|LINK |MODULE 'DELETER'                                  |    |        |       |    |0000000006|P49141  |IMSMessageDescriptor      
+ACT|PEM|0000000043|LINK |MODULE LOAD+GO(FUT)                               |    |        |       |    |0000000041|P49141  |CICSTran      
+ACT|PEM|0000000044|LINK |CICS/VSAM PC LINK                                 |    |        |       |    |0000000027|P49151  |CICSTran      
+ACT|PEM|0000000045|LINK |Batch/IMS module LOAD/LINK/DELETE                 |    |        |       |    |0000000009|P49152  |Variable      
+ACT|PEM|0000000046|LINK |BATCH/IMS LINKEDIT                                |    |        |       |    |0000000036|P49153  |File      
+ACT|UMB|0000000048|LINK |COMMAND LEVEL EXAMPLE                             |    |        |       |    |0000000046|P49154  |File      
+ACT|PEM|0000000050|LINK |Batch load module PRELOAD utility                 |    |        |       |    |0000000050|P49157  |SQLField      
+ACT|PEM|0000000051|SDB  |Read program preload list                         |WAIT|LOADPARM|       |    |          |        |Variable      
+ACT|PEM|0000000064|LINK |Dump contents of PEMTRACE incore table            |    |        |       |    |0000000044|P49644  |IMSMessageDescriptor      
+ACT|UMB|0000000065|LINK |Switch on PEMTRACE without any parameter          |    |        |       |    |0000000044|P49644  |Variable         

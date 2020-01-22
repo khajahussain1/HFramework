@@ -29,10 +29,6 @@ public class WorkbookReader {
 
 	private static String path = System.getProperty("user.dir") + "/src/main/resources/TestData/TestData.xlsx";
 
-	// private static String = "TestData";
-
-	// private static String = "ResultData"
-
 	public static WebDriver driver = null;
 
 	public static void setExcelFile(String TestData, String ResultData) throws Exception {
@@ -71,6 +67,7 @@ public class WorkbookReader {
 				String celldata = sh.getRow(i).getCell(0).getStringCellValue();
 
 				if (celldata.equalsIgnoreCase(testcasename)) {
+					
 
 					break;
 				}
@@ -182,7 +179,7 @@ public class WorkbookReader {
 
 			fo.close();
 		} catch (Exception e) {
-			throw (e);
+			//throw (e);
 		}
 	}
 

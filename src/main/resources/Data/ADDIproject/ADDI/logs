@@ -1,0 +1,97 @@
+2019-07-22 17:24:35.422  INFO 380 --- [main] com.hcl.addi.AddiApplication             : Starting AddiApplication v0.0.1 on LP-5CD7465GP0 with PID 380 (C:\Users\khaja.h\Desktop\ADDIproject\ADDI\ADDI-0.0.1-SNAPSHOT.jar started by khaja.h in C:\Users\khaja.h\Desktop\ADDIproject\ADDI)
+2019-07-22 17:24:35.437  INFO 380 --- [main] com.hcl.addi.AddiApplication             : No active profile set, falling back to default profiles: default
+2019-07-22 17:24:38.936  INFO 380 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34fa7bfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 17:24:40.034  INFO 380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2019-07-22 17:24:40.080  INFO 380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-22 17:24:40.080  INFO 380 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-07-22 17:24:40.103  INFO 380 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Users\khaja.h\ANDROID_SDK_MANAGER\tools;C:\Users\khaja.h\ANDROID_SDK_MANAGER\platform-tools;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Git\cmd;C:\Users\khaja.h\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Users\khaja.h\apache-maven-3.3.3\bin;;.]
+2019-07-22 17:24:40.303  INFO 380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-22 17:24:40.303  INFO 380 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4665 ms
+2019-07-22 17:24:41.397  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forMap :: Executing
+2019-07-22 17:24:41.412  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerMap :: Executing
+2019-07-22 17:24:41.428  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerMap :: Executing
+2019-07-22 17:24:41.497  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forAct :: Executing
+2019-07-22 17:24:41.497  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerDgs :: Executing
+2019-07-22 17:24:41.497  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forTxn :: Executing
+2019-07-22 17:24:41.513  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerTxn :: Executing
+2019-07-22 17:24:41.513  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerTxn :: Executing
+2019-07-22 17:24:41.513  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forHdb :: Executing
+2019-07-22 17:24:41.513  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerHdb :: Executing
+2019-07-22 17:24:41.513  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerHdb :: Executing
+2019-07-22 17:24:41.528  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forCcp :: Executing
+2019-07-22 17:24:41.528  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerCcp :: Executing
+2019-07-22 17:24:41.544  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : lineMapperCcp :: Executing
+2019-07-22 17:24:41.560  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerCcp :: Executing
+2019-07-22 17:24:41.566  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forSdb :: Executing
+2019-07-22 17:24:41.566  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerSdb :: Executing
+2019-07-22 17:24:41.566  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : lineMapperSdb :: Executing
+2019-07-22 17:24:41.566  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerSdb :: Executing
+2019-07-22 17:24:41.566  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forSim :: Executing
+2019-07-22 17:24:41.566  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerSim :: Executing
+2019-07-22 17:24:41.566  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : lineMapperSim :: Executing
+2019-07-22 17:24:41.566  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerSim :: Executing
+2019-07-22 17:24:41.582  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forDgs :: Executing
+2019-07-22 17:24:41.582  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerDgs :: Executing
+2019-07-22 17:24:41.582  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : lineMapperDgs :: Executing
+2019-07-22 17:24:41.582  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerDgs :: Executing
+2019-07-22 17:24:41.597  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forFps :: Executing
+2019-07-22 17:24:41.597  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerFps :: Executing
+2019-07-22 17:24:41.597  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : lineMapperFps :: Executing
+2019-07-22 17:24:41.597  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerFps :: Executing
+2019-07-22 17:24:41.597  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forProgram :: Executing
+2019-07-22 17:24:41.613  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerProgram :: Executing
+2019-07-22 17:24:41.613  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerProgram :: Executing
+2019-07-22 17:24:41.613  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forSps :: Executing
+2019-07-22 17:24:41.629  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : readerSps :: Executing
+2019-07-22 17:24:41.629  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerSps :: Executing
+2019-07-22 17:24:41.629  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forActTxn :: Executing
+2019-07-22 17:24:41.629  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerActTxn :: Executing
+2019-07-22 17:24:41.629  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forActMap :: Executing
+2019-07-22 17:24:41.644  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerActMap :: Executing
+2019-07-22 17:24:41.644  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forActSbd :: Executing
+2019-07-22 17:24:41.644  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerActSdb :: Executing
+2019-07-22 17:24:41.644  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forMapDgs :: Executing
+2019-07-22 17:24:41.661  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerMapDgs :: Executing
+2019-07-22 17:24:41.666  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forActFps :: Executing
+2019-07-22 17:24:41.666  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerActFps :: Executing
+2019-07-22 17:24:41.666  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forPgmAct :: Executing
+2019-07-22 17:24:41.666  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerPgmAct :: Executing
+2019-07-22 17:24:41.682  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forActPgm :: Executing
+2019-07-22 17:24:41.682  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerActPgm :: Executing
+2019-07-22 17:24:41.682  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forPgmDg :: Executing
+2019-07-22 17:24:41.682  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerPgmDg :: Executing
+2019-07-22 17:24:41.698  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forActHdb :: Executing
+2019-07-22 17:24:41.698  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerActHdb :: Executing
+2019-07-22 17:24:41.713  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : forHdbDgs :: Executing
+2019-07-22 17:24:41.713  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerHdbDgs :: Executing
+2019-07-22 17:24:42.353  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : step trasactionProgram :: Executing
+2019-07-22 17:24:42.358  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : lineMapper :: Executing
+2019-07-22 17:24:42.360  INFO 380 --- [main] com.hcl.addi.config.BatchConfiguration   : writerAct :: Executing
+2019-07-22 17:24:42.914  INFO 380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-22 17:24:43.227  INFO 380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-22 17:24:43.243  INFO 380 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2019-07-22 17:24:43.293  INFO 380 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2019-07-22 17:24:43.566  INFO 380 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-22 17:24:43.613  INFO 380 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-22 17:24:43.640  INFO 380 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-22 17:24:43.986  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showAllUsingGET_1
+2019-07-22 17:24:44.028  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showAllUsingGET_2
+2019-07-22 17:24:44.090  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showAllUsingGET_3
+2019-07-22 17:24:44.147  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showAllUsingGET_4
+2019-07-22 17:24:44.160  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getCcpUsingGET_1
+2019-07-22 17:24:44.193  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showAllUsingGET_5
+2019-07-22 17:24:44.235  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: programUpdateUsingPUT_1
+2019-07-22 17:24:44.249  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showAllUsingGET_6
+2019-07-22 17:24:44.331  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showAllUsingGET_7
+2019-07-22 17:24:44.385  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showAllUsingGET_8
+2019-07-22 17:24:44.398  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showAllUsingGET_9
+2019-07-22 17:24:44.432  INFO 380 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createEdgeUsingPOST_1
+2019-07-22 17:24:44.652  INFO 380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 17:24:44.658  INFO 380 --- [main] com.hcl.addi.AddiApplication             : Started AddiApplication in 10.664 seconds (JVM running for 11.547)
+2019-07-22 17:25:21.212  INFO 380 --- [http-nio-9090-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 17:25:21.216  INFO 380 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-22 17:25:21.243  INFO 380 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2019-07-22 17:26:48.794  INFO 380 --- [http-nio-9090-exec-8] c.orientechnologies.common.jna.ONative   : Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2019-07-22 17:27:09.241 ERROR 380 --- [http-nio-9090-exec-7] c.h.a.dao.restimpl.ActivityDaoRestImpl   : ActivityRest -> com.orientechnologies.orient.core.exception.OSerializationException: Impossible serialize value of type class java.util.ArrayList with the ODocument binary serializer
+	DB name="ADDIdb"
+2019-07-22 19:57:15.486  WARN 380 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m59s763ms413µs110ns).

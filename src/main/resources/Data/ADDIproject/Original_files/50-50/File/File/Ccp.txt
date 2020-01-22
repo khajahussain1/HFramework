@@ -1,0 +1,50 @@
+CCP|UMB|00000|00001|Dummy entry                             | 
+CCP|UMB|00000|00009|CDMF data base not available            |E
+CCP|INT|00000|01111|Testing only                            | 
+CCP|INT|00000|01112|This is a test CCP                      | 
+CCP|INT|00000|01115|This is a test CCP                      | 
+CCP|CCP|00000|01350|Next available condition code           |I
+CCP|CCP|00000|01351|Too many reads - Try again              |W
+CCP|LPS|00000|01601|COMPANY ADDRESS PCD NOT FOUND           | 
+CCP|LPS|00000|01602|BRANCH ADDRESS PCD NOT FOUND            | 
+CCP|UMB|00000|01603|Test for missing cclog items            | 
+CCP|DGS|00000|03596|DGS standard end of company result code |I
+CCP|DGS|00000|03599|DGS standard end of file result code    |I
+CCP|UMB|00000|07700|Invalid collection group                |E
+CCP|UMB|00000|07701|Invalid SQL acty or RDB ID              |E
+CCP|UMB|00000|07702|Cannot be targetted for relational      |E
+CCP|UMB|00000|07800|No ColGps found for ID xxxxxxxxxx       |I
+CCP|UMB|00000|07801|Process group ID invalid                |E
+CCP|FSS|00000|09245|TXN REASON CODE NOT FOUND          09245| 
+CCP|FSS|00000|09246|LANGUAGE NOT FOUND FOR REASON CODE 09246| 
+CCP|INT|00000|09876|Dummy entry                             | 
+CCP|INT|00000|09999|Dummy entry                             | 
+CCP|ILP|00000|10000|Action Successful                       |I
+CCP|CLS|00000|10001|Add Successful                          |I
+CCP|CLS|00000|10002|CHANGE SUCCESSFUL                       | 
+CCP|CLS|00000|10003|DELETE SUCCESSFUL                       | 
+CCP|CLS|00000|10004|Inquiry Successful                      |I
+CCP|CLS|00000|10005|Posting Successful                      |I
+CCP|CLS|00000|10006|VERIFY SUCCESSFUL                       | 
+CCP|CLS|00000|10007|UPDATE SUCCESSFUL                       | 
+CCP|CLS|00000|10008|ENTER "SOLD TO INSTITUTION"             | 
+CCP|CLS|00000|10009|LOAN EXCEEDS OFFICER LIMIT              | 
+CCP|CLS|00000|10010|DATA CONTINUES                          | 
+CCP|CLS|00000|10011|End of data                             |I
+CCP|CLS|00000|10012|No more data/end of company             |I
+CCP|CLS|00000|10013|ENTER PARTICIPATION TYPE                | 
+CCP|CLS|00000|10014|PART TYPE PCD 17350 NOT FOUND           | 
+CCP|ILP|00000|10015|NO LOAN NUMBER CHANGE                   | 
+CCP|ILP|00000|10016|READY TO POST                           | 
+CCP|ILP|00000|10017|ENTER CHANGES                           | 
+CCP|ILP|00000|10018|BELOW MARKET RATE SET TO ZERO           | 
+CCP|ILP|00000|10019|ALT CALC CODE RESET                     | 
+CCP|CLS|00000|10020|DOCUMENT SENT TO PRINTER                | 
+CCP|CLS|00000|10021|TRANSFER TO BORROWER SYSTEM             | 
+CCP|CLS|00000|10022|TRANSFER TO COLLATERAL SYSTEM           | 
+CCP|CLS|00000|10023|TRANSFER TO CHECK WRITING SYSTEM        | 
+CCP|CLS|00000|10024|TRANSFER TO CHARGE-OFF SYSTEM           | 
+CCP|CLS|00000|10025|TRANSFER TO COLLECTION SYSTEM           | 
+CCP|CLS|00000|10026|TRANSFER TO MLS SYSTEM                  | 
+CCP|CLS|00000|10027|DISCLOSURE STATEMENT REQUIRED           | 
+CCP|CLS|00000|10028|INVALID RATE CHANGE FREQUENCY           | 

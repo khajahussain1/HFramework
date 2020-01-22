@@ -1,0 +1,64 @@
+Docker queries:-
+
+docker hub url:- https://hub.docker.com
+
+dockerid:-khajahussain
+email:-poolakhaja@gmail.com
+password:-welcome@1234
+
+real VNC credentials:-
+username:-poolakhaja@gmail.com
+password:- Welcome@1234
+
+password:- Hussain@1234$$
+
+
+1. find docker version
+Ans:- docker version
+
+2. find imges running
+Ans:- Docker ps -a
+
+3. how many images are there
+Ans:- Docker images
+
+4. stopn docker images
+Ans:- Docker stopn image id
+
+5. run docker images 
+Ans:- Docker run images name
+
+6. start selenium hub from cmd
+Ans:- docker run -d -p 4444:4444 -–name selenium-hub selenium/hub
+Ans:-workng-- docker run -p 4444:4444 --name selenium-hub selenium/hub
+Ans:- docker run -d -p -–name selenium-hub selenium/hub
+Ans:- docker run -d -p 4444:4444 --net grid --name selenium-hub selenium/hub:3.141.59-dubnium
+
+7. how to get logs from selenium hub
+Ans:- docker logs imageid/container id
+
+8. how to remove unused images
+Ans:- docker system prune
+
+9. how to run docker images
+Ans:-
+working in C#:- docker run -d -p 4444:4444 -p 5900:5900 -v /dev/shm:/dev/shm selenium/standalone-chrome-debug:3.141.59-dubnium
+working in C#:- docker run -d -p 5555:4444 -p 5901:5900 -v /dev/shm:/dev/shm selenium/standalone-firefox-debug:3.141.59-dubnium
+
+   OR
+working in java:- docker run -d -p 6666:4444 -p 5900:5900 -v /dev/shm:/dev/shm selenium/standalone-chrome-debug:3.141.59-lithium
+working in java:- docker run -d -p 5555:4444 -p 5901:5900 -v /dev/shm:/dev/shm selenium/standalone-firefox-debug:3.141.59-lithium
+
+10. how to remove/delete images in docker
+Ans:- docker image prune -a
+
+11. mysql comands
+Ans:- docker run --name easql -e MYSQL_PORT_PASSWORD=abc123 -d mysql:latest
+
+12. how to link wordpress to mysql
+Ans:- docker run --name ealocal --link easql:mysql -p 8080:80 -d wordpress
+
+http://127.0.0.1:4444/
+127.0.0.1:4444
+172.17.0.2:4444
+

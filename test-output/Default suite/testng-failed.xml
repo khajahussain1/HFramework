@@ -5,6 +5,7 @@
     <classes>
       <class name="com.HFramework.Testcases.BookTicketTest">
         <methods>
+          <include name="afterclass"/>
           <include name="BookTicket"/>
           <include name="aftertest"/>
           <include name="beforetest"/>
