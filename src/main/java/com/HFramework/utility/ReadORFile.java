@@ -27,6 +27,7 @@ public class ReadORFile {
 		}
 	}	
 	
+	
 	// Method to get locator type
 
 	public String getLocator(String WebElementName) throws Exception {
